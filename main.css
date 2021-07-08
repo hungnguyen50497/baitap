@@ -1,0 +1,172 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#all {
+	width: 960px;
+	height: 1000px;
+}
+header {
+	width: 100%;
+	height: 100px;
+}
+img {
+	float: left;
+	height: 100px;
+}
+nav {
+	width: 100%;
+	height: 50px;
+	z-index: +1;
+}
+#menu {
+	float: left;
+}
+#menu li {
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	padding: 0px 5px;
+	width: 100px;
+	position: relative;
+	border-right: solid 1px #3B3B3B;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	padding: 0px 5px;
+}
+.menu1 {
+	background: #3210FF;
+	padding: 0px 5px;
+	position: absolute;
+	left: 0px;
+	width: 100px;
+	display: none;
+	list-style: none;
+	z-index: +1;
+}
+#menu a:hover {
+	color: red;
+}
+#menu li:hover {
+	background: gray;
+}
+#menu li:last-child {
+	border-right: none;
+}
+#menu li:hover ul {
+	display: block;
+	padding: 0px;
+}
+input {
+	float: right;
+	width: 200px;
+	height: 40px;
+}
+#content {
+	width: 100%;
+	height: 800px;
+	/*background: red;*/
+	position: relative;
+}
+.left {
+	width: 20%;
+	height: 800px;
+	/*background: gray;*/
+	float: left;
+}
+.left1 {
+	width: 172px;
+	height: 250px;
+	background: #F94040;
+	margin: 10px; 
+}
+.left2 {
+	width: 172px;
+	height: 350px;
+	background: #B00000;
+	margin: 10px;
+}
+.center {
+	width: 50%;
+	height: 800px;
+	/*background: blue;*/
+	float: left;
+}
+.center1 {
+	width: 100%;
+	height: 230px;
+}
+.c1 {
+	width: 235px;
+	height: 210px;
+	background: #52B171;
+	margin: 10px 5px 10px 0px;
+	float: left;
+}
+.c2 {
+	width: 235px;
+	height: 210px;
+	background: #52B171;
+	margin: 10px 0px 10px 5px;
+	float: left;
+}
+.center2 {
+	width: 100%;
+	height: 470px;
+	/*background: red;*/
+}
+.ct {
+	width: 150px;
+	height: 225px;
+	background: #0A894F;
+	float: left;
+	margin: 0px 0px 10px 10px;
+}
+.right {
+	width: 268px;
+	height: 780px;
+	background: gray;
+	float: left;
+	margin: 10px;
+}
+.date {
+	width: 248px;
+	margin: 10px;
+}
+.right1 {
+	width: 248px;
+	height: 230px;
+	background: #072CCB;
+	margin: 300px 10px 10px 10px;
+}
+.right2 {
+	width: 248px;
+	height: 230px;
+	background: #072CCB;
+	margin: 10px;
+}
+footer {
+	width: 945px;
+	height: 70px;
+	background: green;
+	margin: 10px;
+}
+.footer1 {
+	width: 200px;
+	height: 20px;
+	background: red;
+	margin: 10px;
+	margin-top: 25px;  
+	float: left;
+}
+.footer2 {
+	width: 520px;
+	height: 50px;
+	background: blue;
+	float: right;
+	margin: 10px;
+}
